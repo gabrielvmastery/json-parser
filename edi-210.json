@@ -1,0 +1,446 @@
+{
+    "namespace": "mastery.accounting.net",
+    "name": "EDI",
+    "type": "record",
+    "fields": [
+    {
+        "name": "Charges",
+        "type": [
+        "null",
+        {
+            "type": "array",
+            "items": [
+            "null",
+            {
+                "name": "Charge",
+                "type": "record",
+                "fields": [
+                {
+                    "name": "Description",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                },
+                {
+                    "name": "Item",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                },
+                {
+                    "name": "Quantity",
+                    "type": [
+                    "null",
+                    {
+                        "type": "bytes",
+                        "logicalType": "decimal",
+                        "precision": 29,
+                        "scale": 14
+                    }
+                    ]
+                },
+                {
+                    "name": "QuantityType",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                },
+                {
+                    "name": "Rate",
+                    "type": [
+                    "null",
+                    {
+                        "type": "bytes",
+                        "logicalType": "decimal",
+                        "precision": 29,
+                        "scale": 14
+                    }
+                    ]
+                },
+                {
+                    "name": "RateType",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                },
+                {
+                    "name": "Total",
+                    "type": [
+                    "null",
+                    {
+                        "type": "bytes",
+                        "logicalType": "decimal",
+                        "precision": 29,
+                        "scale": 14
+                    }
+                    ]
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "name": "Consignee",
+        "type": [
+        "null",
+        {
+            "name": "Consignee",
+            "type": "record",
+            "fields": [
+            {
+                "name": "Address1",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Address2",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "City",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Code",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Country",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "LocalDate",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "LocalDateTimeZone",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Name",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "State",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Zip",
+                "type": [
+                "null",
+                "string"
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "name": "Currency",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "CustomerId",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "DeliveredDate",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "DeliveredDateTimeZone",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "InvoiceDate",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "InvoiceDateTimeZone",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "InvoiceNumber",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "InvoiceType",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "LoadEquipmentType",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "Note",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "PaymentMethod",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "References",
+        "type": [
+        "null",
+        {
+            "type": "array",
+            "items": [
+            "null",
+            {
+                "name": "ReferenceNumber",
+                "type": "record",
+                "fields": [
+                {
+                    "name": "RefNumber",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                },
+                {
+                    "name": "Type",
+                    "type": [
+                    "null",
+                    "string"
+                    ]
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "name": "Scac",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "ShipmentId",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "ShippedDate",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "ShippedDateTimeZone",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "Shipper",
+        "type": [
+        "null",
+        {
+            "name": "Shipper",
+            "type": "record",
+            "fields": [
+            {
+                "name": "Address1",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Address2",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "City",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Code",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Country",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "LocalDate",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "LocalDateTimeZone",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Name",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "State",
+                "type": [
+                "null",
+                "string"
+                ]
+            },
+            {
+                "name": "Zip",
+                "type": [
+                "null",
+                "string"
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "name": "TotalCharge",
+        "type": [
+        "null",
+        {
+            "type": "bytes",
+            "logicalType": "decimal",
+            "precision": 29,
+            "scale": 14
+        }
+        ]
+    },
+    {
+        "name": "TotalMiles",
+        "type": [
+        "null",
+        "double"
+        ]
+    },
+    {
+        "name": "TotalQuantity",
+        "type": [
+        "null",
+        {
+            "type": "bytes",
+            "logicalType": "decimal",
+            "precision": 29,
+            "scale": 14
+        }
+        ]
+    },
+    {
+        "name": "TotalQuantityUnit",
+        "type": [
+        "null",
+        "string"
+        ]
+    },
+    {
+        "name": "TotalWeight",
+        "type": [
+        "null",
+        "double"
+        ]
+    },
+    {
+        "name": "TransactionId",
+        "type": "int"
+    },
+    {
+        "name": "WeightUnit",
+        "type": [
+        "null",
+        "string"
+        ]
+    }
+    ]
+}
