@@ -1,0 +1,432 @@
+{
+  "TransactionId":"204",
+  "CustomerId":"3111190000",
+  "ShipmentId":"53736404",
+  "SCAC":"DJML",
+  "PaymentMethod":"PP",
+  "Type":"00",
+  "Weight":"31872",
+  "Rate":"945",
+  "Amount":"945.00",
+  "BillTo":
+  {
+    "Name":"CJ LOGISTICS AMERICA, LLC",
+    "Code":"DSC BOL Bill To",
+    "Address1":"1750 S Wolf Rd",
+    "City":"Des Plaines",
+    "State":"IL",
+    "Zip":"600181949",
+    "Country":"US"
+  },
+  "Note":
+  [
+    "ORIGINAL ORDER. STOCK STATUS . REQ  SHIP DATE  20201208  AT    . REQ ARRIVAL DAT",
+    "E  20201208  AT    .",
+    "63.0",
+    "Special Services REG"
+  ],
+  "References":
+  [
+    {
+      "Value":"00105SO05861817",
+      "Qualifier":"BM",
+      "AdditionalDescription":"BOL"
+    },
+    {
+      "Value":"53736404",
+      "Qualifier":"MA",
+      "AdditionalDescription":"Load Number"
+    },
+    {
+      "Value":"B&G",
+      "Qualifier":"CR",
+      "AdditionalDescription":"Customer Code"
+    },
+    {
+      "Value":"01420415",
+      "Qualifier":"PO",
+      "AdditionalDescription":"PO Number"
+    },
+    {
+      "Value":"6688848",
+      "Qualifier":"SM",
+      "AdditionalDescription":"Shipment Number"
+    },
+    {
+      "Value":"194614",
+      "Qualifier":"AG",
+      "AdditionalDescription":"Agent Number"
+    },
+    {
+      "Value":"BGFoodsOps@dsclogistics.com",
+      "Qualifier":"OC",
+      "AdditionalDescription":"Operations Contact"
+    },
+    {
+      "Value":"PRESET",
+      "Qualifier":"CR",
+      "AdditionalDescription":"Appointment Number"
+    },
+    {
+      "Value":"MacroPoint Tracking",
+      "Qualifier":"CR",
+      "AdditionalDescription":"Carrier Update Process"
+    }
+  ],
+  "Stops":
+  [
+    {
+      "RowId":"1",
+      "StopNum":"1",
+      "Reason":"CL",
+      "Weight":"31872",
+      "WeightUnit":"L",
+      "Pallets":"2868",
+      "Location":
+      {
+        "Name":"DSC Logistics Nazareth",
+        "Code":"NP",
+        "Address1":"3850 Prologis Pkwy",
+        "City":"Nazareth",
+        "State":"PA",
+        "Zip":"18064",
+        "Country":"US"
+      },
+      "Dates":
+      [
+        {
+          "Qualifier":"37",
+          "Date":"2020-12-09",
+          "Time":"00:00:00"
+        },
+        {
+          "Qualifier":"38",
+          "Date":"2020-12-09",
+          "Time":"23:59:00"
+        }
+      ],
+      "References":
+      [
+        {
+          "Value":"01420415",
+          "Qualifier":"PO",
+          "AdditionalDescription":"PO Number"
+        },
+        {
+          "Value":"00105SO05861817",
+          "Qualifier":"BM",
+          "AdditionalDescription":"BOL"
+        },
+        {
+          "Value":"B&G",
+          "Qualifier":"CR",
+          "AdditionalDescription":"Customer Code"
+        },
+        {
+          "Value":"0069724180020",
+          "Qualifier":"CR",
+          "AdditionalDescription":"DUNS"
+        },
+        {
+          "Value":"false",
+          "Qualifier":"CR",
+          "AdditionalDescription":"Update 204"
+        },
+        {
+          "Value":"6688848",
+          "Qualifier":"SM",
+          "AdditionalDescription":"Shipment Number"
+        },
+        {
+          "Value":"194614",
+          "Qualifier":"AG",
+          "AdditionalDescription":"Agent Number"
+        },
+        {
+          "Value":"53736404",
+          "Qualifier":"MA",
+          "AdditionalDescription":"Load Number"
+        },
+        {
+          "Value":"BGFoodsOps@dsclogistics.com",
+          "Qualifier":"OC",
+          "AdditionalDescription":"Operations Contact"
+        }
+      ]
+    },
+    {
+      "RowId":"2",
+      "StopNum":"2",
+      "Reason":"CU",
+      "Weight":"31872",
+      "WeightUnit":"L",
+      "Pallets":"2868",
+      "Location":
+      {
+        "Name":"WAKEFERN",
+        "Code":"NJDAYWAK001",
+        "Address1":"60 TOWER ROAD",
+        "City":"DAYTON",
+        "State":"NJ",
+        "Zip":"088101571",
+        "Country":"US"
+      },
+      "Dates":
+      [
+        {
+          "Qualifier":"53",
+          "Date":"2020-12-09",
+          "Time":"00:00:00"
+        },
+        {
+          "Qualifier":"54",
+          "Date":"2020-12-09",
+          "Time":"23:59:00"
+        }
+      ],
+      "References":
+      [
+        {
+          "Value":"01420415",
+          "Qualifier":"PO",
+          "AdditionalDescription":"PO Number"
+        },
+        {
+          "Value":"00105SO05861817",
+          "Qualifier":"BM",
+          "AdditionalDescription":"BOL"
+        },
+        {
+          "Value":"B&G",
+          "Qualifier":"CR",
+          "AdditionalDescription":"Customer Code"
+        },
+        {
+          "Value":"0069724180020",
+          "Qualifier":"CR",
+          "AdditionalDescription":"DUNS"
+        },
+        {
+          "Value":"false",
+          "Qualifier":"CR",
+          "AdditionalDescription":"Update 204"
+        },
+        {
+          "Value":"6688848",
+          "Qualifier":"SM",
+          "AdditionalDescription":"Shipment Number"
+        },
+        {
+          "Value":"194614",
+          "Qualifier":"AG",
+          "AdditionalDescription":"Agent Number"
+        },
+        {
+          "Value":"53736404",
+          "Qualifier":"MA",
+          "AdditionalDescription":"Load Number"
+        },
+        {
+          "Value":"BGFoodsOps@dsclogistics.com",
+          "Qualifier":"OC",
+          "AdditionalDescription":"Operations Contact"
+        }
+      ]
+    }
+  ],
+  "Items":
+  [
+    {
+      "Description":"OR TACO SSNG 3PK 3.75OZ 12PK",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"1872",
+          "WeightUnit":"L",
+          "HandlingQuantity":"480"
+        },
+        {
+          "RowId":"2",
+          "Weight":"1872",
+          "WeightUnit":"L",
+          "HandlingQuantity":"480"
+        }
+      ]
+    },
+    {
+      "Description":"CHEP PALLET",
+      "Stops":
+      [
+        {
+          "RowId":"1"
+        },
+        {
+          "RowId":"2"
+        }
+      ]
+    },
+    {
+      "Description":"OR LS SSNG 1 PK 1.25OZ 24PK",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"705.6",
+          "WeightUnit":"L",
+          "HandlingQuantity":"288"
+        },
+        {
+          "RowId":"2",
+          "Weight":"705.6",
+          "WeightUnit":"L",
+          "HandlingQuantity":"288"
+        }
+      ]
+    },
+    {
+      "Description":"OR GRAND SHELL 13.5OZ 12BX",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"2835",
+          "WeightUnit":"L",
+          "HandlingQuantity":"210"
+        },
+        {
+          "RowId":"2",
+          "Weight":"2835",
+          "WeightUnit":"L",
+          "HandlingQuantity":"210"
+        }
+      ]
+    },
+    {
+      "Description":"POL SWEET ORANGE MARMALADE",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"8976",
+          "WeightUnit":"L",
+          "HandlingQuantity":"264"
+        },
+        {
+          "RowId":"2",
+          "Weight":"8976",
+          "WeightUnit":"L",
+          "HandlingQuantity":"264"
+        }
+      ]
+    },
+    {
+      "Description":"ORTEGA TACO SHELLS 12/12CT",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"2301.6",
+          "WeightUnit":"L",
+          "HandlingQuantity":"336"
+        },
+        {
+          "RowId":"2",
+          "Weight":"2301.6",
+          "WeightUnit":"L",
+          "HandlingQuantity":"336"
+        }
+      ]
+    },
+    {
+      "Description":"OR RF BNS TRAD 16OZ 12CN",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"2363",
+          "WeightUnit":"L",
+          "HandlingQuantity":"170"
+        },
+        {
+          "RowId":"2",
+          "Weight":"2363",
+          "WeightUnit":"L",
+          "HandlingQuantity":"170"
+        }
+      ]
+    },
+    {
+      "Description":"POL AF STRAWBERRY",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"1944",
+          "WeightUnit":"L",
+          "HandlingQuantity":"108"
+        },
+        {
+          "RowId":"2",
+          "Weight":"1944",
+          "WeightUnit":"L",
+          "HandlingQuantity":"108"
+        }
+      ]
+    },
+    {
+      "Description":"OR YEL SHELL 18CT 8.7OZ 12BX",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"4011",
+          "WeightUnit":"L",
+          "HandlingQuantity":"420"
+        },
+        {
+          "RowId":"2",
+          "Weight":"4011",
+          "WeightUnit":"L",
+          "HandlingQuantity":"420"
+        }
+      ]
+    },
+    {
+      "Description":"OR RF BNS VEGETARIAN 16OZ 12CN",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"4797.4",
+          "WeightUnit":"L",
+          "HandlingQuantity":"340"
+        },
+        {
+          "RowId":"2",
+          "Weight":"4797.4",
+          "WeightUnit":"L",
+          "HandlingQuantity":"340"
+        }
+      ]
+    },
+    {
+      "Description":"UW DVLD HAM 4.25OZ 24CN",
+      "Stops":
+      [
+        {
+          "RowId":"1",
+          "Weight":"2066.4",
+          "WeightUnit":"L",
+          "HandlingQuantity":"252"
+        },
+        {
+          "RowId":"2",
+          "Weight":"2066.4",
+          "WeightUnit":"L",
+          "HandlingQuantity":"252"
+        }
+      ]
+    }
+  ]
+}
