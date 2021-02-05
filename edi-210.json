@@ -1,5 +1,5 @@
 {
-    "namespace": "mastery.accounting.net",
+    "namespace": "mastery.test.net",
     "name": "EDI",
     "type": "record",
     "fields": [
